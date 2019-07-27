@@ -1,0 +1,228 @@
+.menumobile {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    right: 0;  
+    padding: .5rem;
+    background-color: rgba(255,255,255,.6)
+}
+
+.menumobile_logo > img  {
+    width: 30%;
+}
+
+.menumobile_toogle {
+    color: var(--blue);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.menumobile_toogle > i {
+    font-size: 2.5rem
+}
+
+
+.pushmenu { /*this is the nav*/
+    background: var(--grayLight);
+    font-family: Arial, Helvetics, sans-serif;
+    width: 240px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    position:fixed;
+}
+  
+.pushmenu a {
+    display: block; /* drops the nav vertically*/
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray;
+    padding: 14px;
+}
+  
+.pushmenu a:hover {
+    background:#00A287;
+    color: white
+}
+  
+.pushmenu a:active {
+    background: #454f5c;
+    color: #fff;
+}
+  
+.pushmenu-left {
+    left: -240px;
+  
+}
+  
+.pushmenu-left.pushmenu-open {
+    left: 0;
+}
+  
+.pushmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+  
+.pushmenu-push-toright {
+    left: 240px;
+}
+  
+/*Transition*/
+.pushmenu, .pushmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;  
+}
+  
+  
+nav-list.active {
+    background-position: -33px top;
+}
+  
+.buttonset {
+    background: #00A287;
+    height: 16px;
+    padding: 10px 20px 20px;
+}
+   
+section.content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+.menuimg {
+    width: 30px;
+    margin-right: .6rem
+}
+
+@media (max-width: 961px)  {
+    /* CORREÇÕES TO MOBILE */
+    .inicio_content, .blog_content {
+        width: 90%;
+        margin-top: 4rem;
+        margin-left: 5%
+    }
+
+    .servicos_item {
+        margin-top: 1rem
+    }
+
+    .parallax_text {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 1.1rem
+    }
+
+    .middle-indicator  {
+        bottom: 0px !important;
+    }
+
+    #carouselDestaque, #carouselDestaque > .carousel-item, #carouselDestaque > .active {
+        height: 250px !important;
+        min-height: 250px
+    }
+
+    .textJustify, .textRight {
+        margin-top: 1rem;
+        position: relative;
+    }
+
+    .inicio_title {
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+
+    .carousel_control {
+        display: none
+    }
+
+    .depo_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .depo_lines {
+        top: -1rem;
+        left: -1rem;
+        right: 1rem;
+        bottom: 1rem;
+    }
+
+    .carousel_text::before, .carousel_text::after {
+        background-size: cover;
+        width: 20px;
+        height: 10px;
+    }
+
+    .carousel_text {
+        width: 80%;
+        margin-left: 10%;
+        font-size: .9rem;
+    }
+
+    .carousel_text::before {
+        bottom: -1rem;
+        right: -1rem;
+    }
+
+    .carousel_text::after {
+        top: -1rem;
+        left: -1rem;
+    }
+
+    .carousel_author {
+        margin-top: 1rem !important
+    }
+
+    .container_carousel > div > img {
+        width: 70px !important
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+
+    .footer_content {
+        padding: 2rem 0
+    }
+
+    .footer_content > div > .boldest {
+        font-size: 1.2rem
+    }
+
+    .footer_content > div {
+        padding-left: 1.5rem !important
+    }
+
+    .showrooms a.logo {
+        width: 33.33333333334%
+    }
+
+    .partner_container {
+        width: 95% !important;
+        margin-left: 2.5% !important
+    }
+
+    .info {
+        height: 50px;
+    }
+
+    .blog_title_item {
+        font-size: 1.4rem;
+    }
+
+    .blog_text {
+        font-weight: 400;
+        font-size: .8rem
+    }
+
+    .colorYellow {
+        font-weight: bold
+    }
+
+}
