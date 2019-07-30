@@ -23,7 +23,7 @@
 </section>
 
 <a name="servicos"></a>
-<section class="servicos margin_1_top">
+<section class="servicos margin_3_top margin_2_bottom">
 
   <div class="servicos_title justifycenter valign-wrapper relative">
     Serviços
@@ -87,7 +87,7 @@
 
 </section>
 
-<div class="parallax-container margin_2_top relative">
+<div class="parallax-container relative">
   <div class="parallax"><img src="uploads/parallax.jpg" /></div>
   <div class="parallax_content valign-wrapper justifycontent">
     <div class="parallax_text center">
@@ -177,7 +177,7 @@
 </section>
 
 <a name="blog"></a>
-<section class="blog margin_1_top relative">
+<section class="blog relative">
 
   <div class="blog_title justifycenter valign-wrapper relative blogline">
     Blog Traveliz

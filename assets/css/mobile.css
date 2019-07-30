@@ -96,7 +96,7 @@ section.content {
 }
 
 .menuimg {
-    width: 30px;
+    width: 21px;
     margin-right: .6rem
 }
 
@@ -188,7 +188,13 @@ section.content {
     }
 
     .footer_content {
-        padding: 2rem 0
+        padding: 2rem 0;
+        text-align: center;   
+        min-height: 640px;
+    }
+
+    .padding_horiz_none > .valign-wrapper {
+        justify-content: center
     }
 
     .footer_content > div > .boldest {
